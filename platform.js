@@ -6,7 +6,7 @@ class Platform{
         this.collider.shapeColor = "red"
 
         this.sprite = createSprite(x, y, w, h)
-        // this.sprite.visible = false
+        this.sprite.visible = false
 
         tgroup.add(this.sprite)
         collidergroup.add(this.collider)
